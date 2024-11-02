@@ -23,7 +23,7 @@ const Projects = () => {
     }
 
     return (
-        <section className="c-space my-20">
+        <section className="c-space my-20" id="work">
             <p className="head-text">My Works</p>
 
             <div className="grid grid-cols-1 lg:grid-cols-2 mt-12 gap-5 w-full">
