@@ -95,12 +95,49 @@ export const myProjects = [
         ],
     },
     {
+        title: 'Adal Brainwave - Interactive Web Application',
+        desc: 'Brainwave is a web application built with React.js, React Router DOM, and Tailwind CSS, deployed on Netlify. It offers a streamlined, responsive experience for intuitive navigation and interaction.',
+        subdesc:
+            'Adal Brainwave is a React-based project, leveraging Tailwind CSS and React Router for seamless navigation, deployed on Netlify.',
+        href: 'https://adal-brainwave.netlify.app/',
+        texture: '/textures/project/project2.mp4',
+        logo: '/assets/project-logo4.svg',
+        logoStyle: {
+            backgroundColor: '#1C1A43',
+            border: '0.2px solid #252262',
+            boxShadow: '0px 0px 60px 0px #635BFF4D',
+        },
+        spotlight: '/assets/spotlight5.png',
+        tags: [
+            {
+                id: 1,
+                name: 'React.js',
+                path: '/assets/react.svg',
+            },
+            {
+                id: 2,
+                name: 'React-Router-Dom',
+                path: '/assets/react-router.png',
+            },
+            {
+                id: 3,
+                name: 'TailwindCSS',
+                path: 'assets/tailwindcss.png',
+            },
+            {
+                id: 4,
+                name: 'Netlify',
+                path: '/assets/netlify.png',
+            },
+        ],
+    },
+    {
         title: 'NikeStyle - Modern Nike Landing Page',
         desc: 'Awesome Nike Landing Page is a React.js project styled with Tailwind CSS and deployed on Vercel. It showcases a modern, responsive design to highlight Nike products with sleek visuals.',
         subdesc:
             'A responsive Nike landing page built with React.js, styled using Tailwind CSS, and deployed on Vercel for seamless performance.',
         href: 'https://awesome-nike-landing-page.vercel.app/',
-        texture: '/textures/project/project2.mp4',
+        texture: '/textures/project/project3.mp4',
         logo: '/assets/project-logo2.png',
         logoStyle: {
             backgroundColor: '#2A1816',
@@ -137,7 +174,7 @@ export const myProjects = [
         subdesc:
             'Disasters IO delivers real-time disaster updates globally, featuring smooth navigation, responsive design, and Vercel deployment for fast performance.',
         href: 'https://disasters-io.vercel.app/',
-        texture: '/textures/project/project3.mp4',
+        texture: '/textures/project/project4.mp4',
         logo: '/assets/project-logo3.png',
         logoStyle: {
             backgroundColor: '#60f5a1',
@@ -167,43 +204,6 @@ export const myProjects = [
                 id: 4,
                 name: 'Vercel',
                 path: '/assets/vercel.svg',
-            },
-        ],
-    },
-    {
-        title: 'Adal Brainwave - Interactive Web Application',
-        desc: 'Brainwave is a web application built with React.js, React Router DOM, and Tailwind CSS, deployed on Netlify. It offers a streamlined, responsive experience for intuitive navigation and interaction.',
-        subdesc:
-            'Adal Brainwave is a React-based project, leveraging Tailwind CSS and React Router for seamless navigation, deployed on Netlify.',
-        href: 'https://adal-brainwave.netlify.app/',
-        texture: '/textures/project/project4.mp4',
-        logo: '/assets/project-logo4.svg',
-        logoStyle: {
-            backgroundColor: '#1C1A43',
-            border: '0.2px solid #252262',
-            boxShadow: '0px 0px 60px 0px #635BFF4D',
-        },
-        spotlight: '/assets/spotlight5.png',
-        tags: [
-            {
-                id: 1,
-                name: 'React.js',
-                path: '/assets/react.svg',
-            },
-            {
-                id: 2,
-                name: 'React-Router-Dom',
-                path: '/assets/react-router.png',
-            },
-            {
-                id: 3,
-                name: 'TailwindCSS',
-                path: 'assets/tailwindcss.png',
-            },
-            {
-                id: 4,
-                name: 'Netlify',
-                path: '/assets/netlify.png',
             },
         ],
     },
