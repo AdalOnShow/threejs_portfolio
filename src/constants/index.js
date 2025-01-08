@@ -58,13 +58,50 @@ export const clientReviews = [
 
 export const myProjects = [
     {
-        title: 'Podcastr - AI Podcast Platform',
-        desc: 'Podcastr is a revolutionary Software-as-a-Service platform that transforms the way podcasts are created. With advanced AI-powered features like text-to-multiple-voices functionality, it allows creators to generate diverse voiceovers from a single text input.',
+        title: 'Chills Bay - Modern Responsive Web Design',
+        desc: 'Chills Bay is a React.js web project featuring React Router for seamless navigation and Tailwind CSS for responsive styling. Deployed on Vercel, it showcases efficient design, smooth performance, and modern UI.',
         subdesc:
-            'Built as a unique Software-as-a-Service app with Next.js 14, Tailwind CSS, TypeScript, Framer Motion and Convex, Podcastr is designed for optimal performance and scalability.',
-        href: 'https://www.youtube.com/watch?v=zfAb95tJvZQ',
+            'Chills Bay is a responsive web project built with React.js, React Router DOM, and Tailwind CSS, deployed on Vercel.',
+        href: 'https://chills-bay-big-react-tailwind-project.vercel.app/',
         texture: '/textures/project/project1.mp4',
         logo: '/assets/project-logo1.png',
+        logoStyle: {
+            backgroundColor: '#13202F',
+            border: '0.2px solid #17293E',
+            boxShadow: '0px 0px 60px 0px #2F6DB54D',
+        },
+        spotlight: '/assets/spotlight2.png',
+        tags: [
+            {
+                id: 1,
+                name: 'React.js',
+                path: '/assets/react.svg',
+            },
+            {
+                id: 2,
+                name: 'React-Router-Dom',
+                path: '/assets/react-router.png',
+            },
+            {
+                id: 3,
+                name: 'TailwindCSS',
+                path: 'assets/tailwindcss.png',
+            },
+            {
+                id: 4,
+                name: 'Vercel',
+                path: '/assets/vercel.svg',
+            },
+        ],
+    },
+    {
+        title: 'NikeStyle - Modern Nike Landing Page',
+        desc: 'Awesome Nike Landing Page is a React.js project styled with Tailwind CSS and deployed on Vercel. It showcases a modern, responsive design to highlight Nike products with sleek visuals.',
+        subdesc:
+            'A responsive Nike landing page built with React.js, styled using Tailwind CSS, and deployed on Vercel for seamless performance.',
+        href: 'https://awesome-nike-landing-page.vercel.app/',
+        texture: '/textures/project/project2.mp4',
+        logo: '/assets/project-logo2.png',
         logoStyle: {
             backgroundColor: '#2A1816',
             border: '0.2px solid #36201D',
@@ -95,48 +132,11 @@ export const myProjects = [
         ],
     },
     {
-        title: 'LiveDoc - Real-Time Google Docs Clone',
-        desc: 'LiveDoc is a powerful collaborative app that elevates the capabilities of real-time document editing. As an enhanced version of Google Docs, It supports millions of collaborators simultaneously, ensuring that every change is captured instantly and accurately.',
+        title: 'Disasters.io - Real-Time Disaster Tracking Platform',
+        desc: 'Disasters IO is a React.js-based web application that provides real-time updates on global disasters. Styled with Tailwind CSS, it utilizes React Router for seamless navigation and is deployed on Vercel.',
         subdesc:
-            'With LiveDoc, users can experience the future of collaboration, where multiple contributors work together in real time without any lag, by using Next.js and Liveblocks newest features.',
-        href: 'https://www.youtube.com/watch?v=y5vE8y_f_OM',
-        texture: '/textures/project/project2.mp4',
-        logo: '/assets/project-logo2.png',
-        logoStyle: {
-            backgroundColor: '#13202F',
-            border: '0.2px solid #17293E',
-            boxShadow: '0px 0px 60px 0px #2F6DB54D',
-        },
-        spotlight: '/assets/spotlight2.png',
-        tags: [
-            {
-                id: 1,
-                name: 'React.js',
-                path: '/assets/react.svg',
-            },
-            {
-                id: 2,
-                name: 'TailwindCSS',
-                path: 'assets/tailwindcss.png',
-            },
-            {
-                id: 3,
-                name: 'TypeScript',
-                path: '/assets/typescript.png',
-            },
-            {
-                id: 4,
-                name: 'Framer Motion',
-                path: '/assets/framer.png',
-            },
-        ],
-    },
-    {
-        title: 'CarePulse - Health Management System',
-        desc: 'An innovative healthcare platform designed to streamline essential medical processes. It simplifies patient registration, appointment scheduling, and medical record management, providing a seamless experience for both healthcare providers and patients.',
-        subdesc:
-            'With a focus on efficiency, CarePulse integrantes complex forms and SMS notifications, by using Next.js, Appwrite, Twillio and Sentry that enhance operational workflows.',
-        href: 'https://www.youtube.com/watch?v=lEflo_sc82g',
+            'Disasters IO delivers real-time disaster updates globally, featuring smooth navigation, responsive design, and Vercel deployment for fast performance.',
+        href: 'https://disasters-io.vercel.app/',
         texture: '/textures/project/project3.mp4',
         logo: '/assets/project-logo3.png',
         logoStyle: {
@@ -155,29 +155,66 @@ export const myProjects = [
             },
             {
                 id: 2,
+                name: 'React-Router-Dom',
+                path: '/assets/react-router.png',
+            },
+            {
+                id: 3,
                 name: 'TailwindCSS',
                 path: 'assets/tailwindcss.png',
             },
             {
-                id: 3,
-                name: 'TypeScript',
-                path: '/assets/typescript.png',
-            },
-            {
                 id: 4,
-                name: 'Framer Motion',
-                path: '/assets/framer.png',
+                name: 'Vercel',
+                path: '/assets/vercel.svg',
             },
         ],
     },
     {
-        title: 'Horizon - Online Banking Platform',
-        desc: 'Horizon is a comprehensive online banking platform that offers users a centralized finance management dashboard. It allows users to connect multiple bank accounts, monitor real-time transactions, and seamlessly transfer money to other users.',
+        title: 'Adal Brainwave - Interactive Web Application',
+        desc: 'Brainwave is a web application built with React.js, React Router DOM, and Tailwind CSS, deployed on Netlify. It offers a streamlined, responsive experience for intuitive navigation and interaction.',
         subdesc:
-            'Built with Next.js 14 Appwrite, Dwolla and Plaid, Horizon ensures a smooth and secure banking experience, tailored to meet the needs of modern consumers.',
-        href: 'https://www.youtube.com/watch?v=PuOVqP_cjkE',
+            'Adal Brainwave is a React-based project, leveraging Tailwind CSS and React Router for seamless navigation, deployed on Netlify.',
+        href: 'https://adal-brainwave.netlify.app/',
         texture: '/textures/project/project4.mp4',
-        logo: '/assets/project-logo4.png',
+        logo: '/assets/project-logo4.svg',
+        logoStyle: {
+            backgroundColor: '#1C1A43',
+            border: '0.2px solid #252262',
+            boxShadow: '0px 0px 60px 0px #635BFF4D',
+        },
+        spotlight: '/assets/spotlight5.png',
+        tags: [
+            {
+                id: 1,
+                name: 'React.js',
+                path: '/assets/react.svg',
+            },
+            {
+                id: 2,
+                name: 'React-Router-Dom',
+                path: '/assets/react-router.png',
+            },
+            {
+                id: 3,
+                name: 'TailwindCSS',
+                path: 'assets/tailwindcss.png',
+            },
+            {
+                id: 4,
+                name: 'Netlify',
+                path: '/assets/netlify.png',
+            },
+        ],
+    },
+    {
+        title: 'Adal Modern Bank - Modern Digital Banking Solution',
+        desc: 'Adal Modern Bank is a React.js-powered project offering a modern, responsive user interface for financial services. Built with Tailwind CSS and React Router DOM, it’s deployed on Vercel.',
+        subdesc:
+            'Adal Modern Bank provides a seamless digital banking experience with React.js, Tailwind CSS, and Vercel, ensuring responsive design.',
+        href: 'https://adal-modern-bank.vercel.app/',
+        texture: '/textures/project/project5.mp4',
+        logo: '/assets/project-logo5.svg',
         logoStyle: {
             backgroundColor: '#0E1F38',
             border: '0.2px solid #0E2D58',
@@ -197,50 +234,13 @@ export const myProjects = [
             },
             {
                 id: 3,
-                name: 'TypeScript',
-                path: '/assets/typescript.png',
-            },
-            {
-                id: 4,
                 name: 'Framer Motion',
                 path: '/assets/framer.png',
             },
-        ],
-    },
-    {
-        title: 'Imaginify - AI Photo Manipulation App',
-        desc: 'Imaginify is a groundbreaking Software-as-a-Service application that empowers users to create stunning photo manipulations using AI technology. With features like AI-driven image editing, a payments system, and a credits-based model.',
-        subdesc:
-            'Built with Next.js 14, Cloudinary AI, Clerk, and Stripe, Imaginify combines cutting-edge technology with a user-centric approach. It can be turned into a side income or even a full-fledged business.',
-        href: 'https://www.youtube.com/watch?v=Ahwoks_dawU',
-        texture: '/textures/project/project5.mp4',
-        logo: '/assets/project-logo5.png',
-        logoStyle: {
-            backgroundColor: '#1C1A43',
-            border: '0.2px solid #252262',
-            boxShadow: '0px 0px 60px 0px #635BFF4D',
-        },
-        spotlight: '/assets/spotlight5.png',
-        tags: [
-            {
-                id: 1,
-                name: 'React.js',
-                path: '/assets/react.svg',
-            },
-            {
-                id: 2,
-                name: 'TailwindCSS',
-                path: 'assets/tailwindcss.png',
-            },
-            {
-                id: 3,
-                name: 'TypeScript',
-                path: '/assets/typescript.png',
-            },
             {
                 id: 4,
-                name: 'Framer Motion',
-                path: '/assets/framer.png',
+                name: 'Vercel',
+                path: '/assets/vercel.svg',
             },
         ],
     },
@@ -249,10 +249,10 @@ export const myProjects = [
 export const calculateSizes = (isSmall, isMobile, isTablet) => {
     return {
         deskScale: isSmall ? 0.05 : isMobile ? 0.06 : 0.065,
-        deskPosition: isMobile ? [0.5, -4.5, 0] : [0.25, -5.5, 0],
+        deskPosition: isMobile ? [0.5, -4.5, 0] : [0.25, -6, 0],
         cubePosition: isSmall ? [4, -5, 0] : isMobile ? [5, -5, 0] : isTablet ? [5, -5, 0] : [9, -5.5, 0],
-        reactLogoPosition: isSmall ? [3, 4, 0] : isMobile ? [5, 4, 0] : isTablet ? [5, 4, 0] : [12, 3, 0],
-        ringPosition: isSmall ? [-5, 7, 0] : isMobile ? [-10, 10, 0] : isTablet ? [-12, 10, 0] : [-24, 10, 0],
+        reactLogoPosition: isSmall ? [3, 4, 0] : isMobile ? [5, 4, 0] : isTablet ? [5, 4, 0] : [10, 3, 0],
+        ringPosition: isSmall ? [-5, 7, 0] : isMobile ? [-10, 10, 0] : isTablet ? [-12, 10, 0] : [-22, 10, 0],
         targetPosition: isSmall ? [-5, -10, -10] : isMobile ? [-9, -10, -10] : isTablet ? [-11, -7, -10] : [-13, -13, -10],
     };
 };

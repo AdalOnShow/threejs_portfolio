@@ -3,7 +3,8 @@ import { Suspense, useState } from "react";
 import { Canvas } from "@react-three/fiber";
 import { Center, OrbitControls } from "@react-three/drei";
 import CanvasLoader from "../components/CanvasLoader.jsx";
-import DemoComputer from "../components/DemoComputer.jsx";
+// import DemoComputer from "../components/DemoComputer.jsx";
+import DemoLaptop from "../components/DemoLaptop.jsx";
 
 const projectCount = myProjects.length;
 
@@ -27,7 +28,7 @@ const Projects = () => {
             <p className="head-text">My Works</p>
 
             <div className="grid grid-cols-1 lg:grid-cols-2 mt-12 gap-5 w-full">
-                <div className="flex flex-col gap-5 relative py-10 px-5 sm:p-10 shadow-2xl shadow-black-200">
+                <div className="flex flex-col justify-between gap-5 relative py-10 px-5 sm:p-10 shadow-2xl shadow-black-200">
                     <div className="absolute top-0 right-0">
                         <img src={currentProject.spotlight} alt="spotlight" className="w-full h-96 object-cover rounded-xl" />
                     </div>
@@ -71,8 +72,8 @@ const Projects = () => {
 
                         <Center>
                             <Suspense fallback={<CanvasLoader />}>
-                                <group scale={2} position={[0, -3, 0]} rotation={[0, -0.1, 0]}>
-                                    <DemoComputer texture={currentProject.texture} />
+                                <group scale={1.8} position={[0, -1.2, 0]} rotation={[0.2, 0, 0]}>
+                                    <DemoLaptop texture={currentProject.texture} />
                                 </group>
                             </Suspense>
                         </Center>

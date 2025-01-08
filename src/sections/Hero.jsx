@@ -21,9 +21,22 @@ const Hero = () => {
 
     return (
         <section className="min-h-screen w-full flex flex-col relative" id="home">
+            <header className="z-50 bg-black/90">
+                <div className="flex w-full justify-between items-center py-5 mx-auto c-space">
+                    <a href="/" className="text-neutral-400 font-bold text-2xl hover:text-white transition-colors">
+                        AdaL <span className="text-orange-400">.</span>
+                    </a>
+                    <div>
+                        <a href="#contact">
+                            <Button name="Hair Me" isBeam containerClass="flex justify-end" />
+                        </a>
+                    </div>
+                </div>
+            </header>
+
             <div className="w-full mx-auto flex flex-col mt-20 sm:mt-36 c-space gap-3">
                 <p className="text-2xl sm:text-3xl font-medium text-white text-center font-generalsans">Hi, I am Sharif Adal <span className="waving-hand">👋🏼</span></p>
-                <p className="hero_tag text-gray_gradient">Building Products & Brands</p>
+                <p className="hero_tag text-gray_gradient">Front-End Web Developer</p>
 
                 <div className="w-full h-full absolute inset-0">
                     <Canvas className="w-full h-full">
@@ -38,7 +51,6 @@ const Hero = () => {
                                     scale={sizes.deskScale}
                                 />
                             </HeroCamera>
-
 
                             <group>
                                 <Target position={sizes.targetPosition} />
