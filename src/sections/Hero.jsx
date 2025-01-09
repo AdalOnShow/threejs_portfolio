@@ -22,7 +22,7 @@ const Hero = () => {
     return (
         <section className="min-h-screen w-full flex flex-col relative" id="home">
             <header className="z-50 bg-black/90">
-                <div className="flex w-full justify-between items-center py-5 mx-auto c-space">
+                <div className="flex w-full justify-between items-center pt-12 mx-auto c-space">
                     <a href="/" className="text-neutral-400 font-bold text-2xl hover:text-white transition-colors">
                         AdaL <span className="text-orange-400">.</span>
                     </a>
