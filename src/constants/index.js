@@ -286,3 +286,31 @@ export const workExperiences = [
         animation: 'salute',
     },
 ];
+
+export const socialLinks = [
+    {
+        id: 1,
+        name: 'LinkedIn',
+        link: 'https://www.linkedin.com/in/adalonshow/',
+        icon: '/assets/linkedin.svg',
+    },
+    {
+        id: 2,
+        name: 'GitHub',
+        link: 'https://github.com/AdalOnShow/',
+        icon: '/assets/github.svg',
+    },
+    {
+        id: 3,
+        name: 'Facebook',
+        link: "https://facebook.com/AdalOnShow/",
+        icon: '/assets/facebook.svg'
+    }
+    ,
+    {
+        id: 4,
+        name: 'Instagram',
+        link: 'https://instagram.com/sharif.h.adal/',
+        icon: '/assets/instagram.svg',
+    },
+];

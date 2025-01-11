@@ -6,7 +6,6 @@ import Contact from "./sections/Contact.jsx";
 import Footer from "./sections/Footer.jsx";
 import { FloatingNav } from './components/FloatingNavbar';
 import { navLinks } from './constants/index';
-
 const App = () => {
     return (
         <main className="max-w-7xl mx-auto">

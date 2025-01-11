@@ -18,7 +18,9 @@ const About = () => {
             <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 xl:grid-rows-6 gap-5 h-full">
                 <div className="col-span-1 xl:row-span-3">
                     <div className="grid-container">
-                        <img src="/assets/grid1.png" alt="grid-1" className="w-full sm:h-[276px] h-fit object-contain" />
+                        <div className="w-full sm:h-[276px] h-fit flex justify-center">
+                            <img src="/assets/my-pic.png" alt="grid-1" className="rounded-lg" />
+                        </div>
 
                         <div>
                             <p className="grid-headtext">Hi, I&apos;m Sharif H. Adal</p>
@@ -57,7 +59,7 @@ const About = () => {
                             <p className="grid-subtext">I&apos;m based in Chattagram, Bangladesh and open to remote work worldwide.
                             </p>
                             <a href="#contact">
-                            <Button name="Contact Me" isBeam containerClass="w-full mt-10" />
+                                <Button name="Contact Me" isBeam containerClass="w-full mt-10" />
                             </a>
                         </div>
                     </div>

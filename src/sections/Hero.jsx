@@ -11,6 +11,7 @@ import Cube from "../components/Cube.jsx";
 import Rings from "../components/Rings.jsx";
 import HeroCamera from "../components/HeroCamera.jsx";
 import Button from "../components/Button.jsx";
+import { HiOutlineSaveAs } from "react-icons/hi";
 
 const Hero = () => {
     const isSmall = useMediaQuery({ maxWidth: 440 })
@@ -26,9 +27,21 @@ const Hero = () => {
                     <a href="/" className="text-neutral-400 font-bold text-2xl hover:text-white transition-colors">
                         AdaL <span className="text-orange-400">.</span>
                     </a>
-                    <div>
+                    <div className='flex gap-4'>
+                        <div className="gap-3 hidden lg:flex">
+                            <div className="social-icon">
+                                <a href="https://www.linkedin.com/in/adalonshow/" target="_blank" className="flex items-center justify-center">
+                                    <img src="/assets/linkedin.svg" alt="LinkedIn" className="size-1/2" />
+                                </a>
+                            </div>
+                            <div className="social-icon">
+                                <a href="https://github.com/AdalOnShow/" target="_blank" className="flex items-center justify-center">
+                                    <img src="/assets/github.svg" alt="GitHub" className="size-1/2" />
+                                </a>
+                            </div>
+                        </div>
                         <a href="#contact">
-                            <Button name="Hair Me" isBeam containerClass="flex justify-end" />
+                            <Button name="Resume" containerClass="flex justify-end" icon={<HiOutlineSaveAs size={24} />} />
                         </a>
                     </div>
                 </div>
@@ -68,7 +81,7 @@ const Hero = () => {
 
             <div className="absolute bottom-7 left-0 right-0 w-full z-10 c-space">
                 <a href="#about" className="w-fit">
-                    <Button name="Let's work togethor" isBeam containerClass="sm:w-fit w-full sm:min-w-96" />
+                    <Button name="Let's work together" isBeam containerClass="sm:w-fit w-full sm:min-w-96" />
                 </a>
             </div>
         </section>

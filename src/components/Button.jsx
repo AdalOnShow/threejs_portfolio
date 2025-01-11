@@ -1,5 +1,5 @@
 // eslint-disable-next-line react/prop-types
-const Button = ({ name, isBeam = false, containerClass }) => {
+const Button = ({ name, isBeam = false, containerClass,icon }) => {
     return (
         <button className={`btn ${containerClass}`}>
             {isBeam && (
@@ -9,6 +9,9 @@ const Button = ({ name, isBeam = false, containerClass }) => {
                 </span>
             )}
             {name}
+            {icon && (
+                icon
+            )}
         </button>
     )
 }
