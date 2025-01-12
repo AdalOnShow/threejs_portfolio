@@ -40,8 +40,8 @@ const Hero = () => {
                                 </a>
                             </div>
                         </div>
-                        <a href="#contact">
-                            <Button name="Resume" containerClass="flex justify-end" icon={<HiOutlineSaveAs size={24} />} />
+                        <a href="/assets/resume.pdf" download="sharif-adal-resume.pdf">
+                            <Button name="Resume" containerClass="flex justify-end" icon={<HiOutlineSaveAs size={24} className='waving-hand' />} />
                         </a>
                     </div>
                 </div>
