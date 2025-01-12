@@ -1,3 +1,4 @@
+import emailjs from "@emailjs/browser";
 import { useRef, useState } from "react";
 
 const Contact = () => {
@@ -14,16 +15,39 @@ const Contact = () => {
         setForm({ ...form, [name]: value })
     }
 
-    const handleSubmit = (e) => {
+    const handleSubmit = async (e) => {
         e.preventDefault();
 
         setLoading(true)
 
-        setForm({
-            name: "",
-            email: "",
-            message: "",
-        })
+        try {
+            await emailjs.send(
+                "service_8070qbc",
+                "template_6ssu9nr",
+                {
+                    from_name: form.name,
+                    to_name: "Sharif Adal",
+                    from_email: form.email,
+                    to_email: "sharifadal2008@gmail.com",
+                    message: form.message,
+
+                },
+                "0uI3Q85Zv5zX_MAp2"
+            )
+
+            setLoading(false)
+
+            alert("Form submitted successfully")
+            setForm({
+                name: "",
+                email: "",
+                message: "",
+            })
+
+        } catch (error) {
+            setLoading(false)
+            console.log(error)
+        }
 
         setTimeout(() => {
             setLoading(false)
